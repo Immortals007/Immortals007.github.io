@@ -13,7 +13,7 @@ docker pull b3log/siyuan:v3.1.6
 
 ```bash
 # 拉取 镜像
-docker pull b3log/siyuan:v3.1.6
+docker pull b3log/siyuan:latest
 
 # 运行镜像地址
 docker run \
@@ -25,7 +25,7 @@ docker run \
   -p 6806:6806 \
   -e PUID=1000 \
   -e PGID=1000 \
-  b3log/siyuan:v3.1.6 \
+  b3log/siyuan:latest \
   --workspace=/siyuan/workspace/ \
   --accessAuthCode=123456
 
