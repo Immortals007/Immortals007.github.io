@@ -6,7 +6,7 @@
 
 ```bash
 # 使用docker 下载镜像
-docker pull b3log/siyuan:v3.1.6
+docker pull b3log/siyuan:latest
 ```
 
 ### 安装
